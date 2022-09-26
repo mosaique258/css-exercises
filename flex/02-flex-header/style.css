@@ -20,6 +20,9 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
   
   
 }
@@ -30,5 +33,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  margin: 0 10px;
+  
 }
