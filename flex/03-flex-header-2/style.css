@@ -20,6 +20,7 @@ body {
 .left-header {
   display:flex;
   justify-content: space-between;
+  gap: 8px;
 
 }
 
@@ -27,6 +28,7 @@ body {
   display: flex;
   margin-left: auto;
   justify-content: space-between;  
+  gap: 16px;
 
 }
 
@@ -51,6 +53,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 8px;
 }
 
 a {
@@ -63,4 +66,5 @@ ul {
   list-style-type: none;
   display: flex;
   align-items: center;
+  gap: 8px;
 }
