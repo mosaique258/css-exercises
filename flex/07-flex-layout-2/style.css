@@ -11,25 +11,38 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  /* solution starts here*/
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  padding-top: 16px;
+  flex-grow: 1;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  /*solution starts here*/
+  flex-grow: 1;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  /*solutions starts here*/
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 200px;
+  width: 300px;
   height: 200px;
+  padding: 10px;
 }
 
 /*solution starts*/
@@ -39,5 +52,31 @@ body {
 }
 
 .grid {
+  display: flex;
   flex-wrap:wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 32px;
+  flex-grow: 1;
+}
+
+.header-container, .footer-container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.footer-container {
+  justify-content: center;
+}
+
+a {
+  font-size: 24px;
+  color: #eee;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.8;
 }
